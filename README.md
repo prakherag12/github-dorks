@@ -12,7 +12,7 @@ Clone this repository and run:
 pip install -r requirements.txt
 ```
 
-#### Usage
+#### Usage #######
 ```
 GH_USER  - Environment variable to specify Github user
 GH_PWD   - Environment variable to specify password
@@ -36,7 +36,7 @@ GH_TOKEN=<github_token> python github-dork.py -u dev-nepal              # search
 GH_URL=https://github.example.com python github-dork.py -u dev-nepal    # search a GitHub Enterprise instance
 ```
 
-#### Limitations
+#### Limitations #######
 
 - Authenticated requests get a higher rate limit. But, since this tool waits for the api rate limit to be reset (which is usually less than a minute), it can be slightly slow.
 - Output formatting is not great. PR welcome
